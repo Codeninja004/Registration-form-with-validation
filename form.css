@@ -53,6 +53,7 @@ body{
     margin-top: 10%;
     background-color: #000157;
     border-radius: 150px;
+    border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -64,8 +65,8 @@ body{
     cursor: pointer;
 }
 .left button:hover{
-    box-shadow: 5px 5px 8px #030569;
-    transition: all 0.2s;
+    box-shadow: 5px 5px 8px #000000;
+    transition: all 0.1s;
     border: none;
 }
 input[type=text] {
