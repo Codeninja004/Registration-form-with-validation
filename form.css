@@ -38,7 +38,7 @@ body{
     margin-left: 25%;
     margin-top: 0%;
     border-radius: 20px;
-    background-color: #ffffff65;
+    background-color: #ffffff33;
 }
 .left{
     position: absolute;
@@ -95,4 +95,29 @@ input[type=password]:focus{
     width: 100%;
     margin-top: 7%;
     height: 30px;
+}
+.confirm{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+}
+.confirm button {
+    background-color: #000157;
+    border-radius: 150px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1vw;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+}
+.confirm button:hover{
+    box-shadow: 5px 5px 8px #000000;
+    transition: all 0.1s;
+    border: none;
 }

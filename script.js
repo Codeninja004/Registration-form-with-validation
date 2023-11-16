@@ -16,5 +16,5 @@ function validateForm() {
         alert("Passwords do not match");
         return;
     }
-    alert("Form submitted successfully");
+    window.open("conpage.html")
 }
